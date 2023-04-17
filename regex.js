@@ -33,7 +33,7 @@ function imagesSearcher(text){
     // Add your logic.
     const regex = /\b\w+\.(jpg|jpeg|png)\b/g;
     arr = text.match(regex);
-    return arr
+    return arr;
 }
 
 
